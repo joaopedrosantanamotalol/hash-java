@@ -1,0 +1,27 @@
+2026-10-10 11:14:28 DEBUG [main] NetHash - Nova estrutura de tabela criada com 4 posições
+2026-10-10 11:14:28 INFO  [main] NetHash - Tabela hash criada. Capacidade inicial: 4
+2026-10-10 11:14:28 DEBUG [main] NetHash - Solicitação de inserção/atualização para a chave 'chave 1'
+2026-10-10 11:14:28 DEBUG [main] NetHash - Índice calculado para a chave 'chave 1': 0
+2026-10-10 11:14:28 INFO  [main] NetHash - Entrada inserida. Chave='chave 1', índice=0, quantidade=1
+2026-10-10 11:14:28 DEBUG [main] NetHash - Verificação do fator de carga: quantidade=1, capacidade=4, necessário=false
+2026-10-10 11:14:28 DEBUG [main] NetHash - Verificando existência da chave 'chave 1'
+2026-10-10 11:14:28 DEBUG [main] NetHash - Índice calculado para a chave 'chave 1': 0
+2026-10-10 11:14:28 DEBUG [main] NetHash - Chave 'chave 1' encontrada
+2026-10-10 11:15:10 DEBUG [main] NetHash - Nova estrutura de tabela criada com 4 posições
+2026-10-10 11:15:10 INFO  [main] NetHash - Tabela hash criada. Capacidade inicial: 4
+2026-10-10 11:15:10 DEBUG [main] NetHash - Solicitação de inserção/atualização para a chave 'chave 1'
+2026-10-10 11:15:10 DEBUG [main] NetHash - Índice calculado para a chave 'chave 1': 0
+2026-10-10 11:15:10 INFO  [main] NetHash - Entrada inserida. Chave='chave 1', índice=0, quantidade=1
+2026-10-10 11:15:10 DEBUG [main] NetHash - Verificação do fator de carga: quantidade=1, capacidade=4, necessário=false
+2026-10-10 11:15:10 DEBUG [main] NetHash - Consultando valor da chave 'chave 1'
+2026-10-10 11:15:10 DEBUG [main] NetHash - Índice calculado para a chave 'chave 1': 0
+2026-10-10 11:15:10 INFO  [main] NetHash - Chave 'chave 1' encontrada no índice 0
+2026-10-10 11:15:25 DEBUG [main] NetHash - Nova estrutura de tabela criada com 4 posições
+2026-10-10 11:15:25 INFO  [main] NetHash - Tabela hash criada. Capacidade inicial: 4
+2026-10-10 11:15:25 DEBUG [main] NetHash - Solicitação de inserção/atualização para a chave 'chave 1'
+2026-10-10 11:15:25 DEBUG [main] NetHash - Índice calculado para a chave 'chave 1': 0
+2026-10-10 11:15:25 INFO  [main] NetHash - Entrada inserida. Chave='chave 1', índice=0, quantidade=1
+2026-10-10 11:15:25 DEBUG [main] NetHash - Verificação do fator de carga: quantidade=1, capacidade=4, necessário=false
+2026-10-10 11:15:25 DEBUG [main] NetHash - Consultando valor da chave 'chave 1'
+2026-10-10 11:15:25 DEBUG [main] NetHash - Índice calculado para a chave 'chave 1': 0
+2026-10-10 11:15:25 INFO  [main] NetHash - Chave 'chave 1' encontrada no índice 0

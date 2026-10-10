@@ -5,8 +5,8 @@ package com.hash;
 // criação da classe THash com tipos Genéricos sendo T & U, indicando duas entradas de qualquer tipo
 public class THash<T,U>  {
 
-    T chave; // valor 1 de tipo genérico T
-    U valor; // valor 2 do tipo genérico U
+    private final  T chave; // valor 1 de tipo genérico T
+    private U valor; // valor 2 do tipo genérico U
 
     // método construtor getters and setters
     THash(T chave, U valor){
@@ -16,10 +16,6 @@ public class THash<T,U>  {
 
     public T getChave() {
         return chave;
-    }
-
-    public void setChave(T chave) {
-        this.chave = chave;
     }
 
     public U getValor() {
