@@ -255,4 +255,15 @@ public class NetHash<T, U> {
 
         logger.warn("Tentativa de remover chave inexistente: '{}'", chave);
     }
+
+    public List<T> chaves() {
+        List<T> resultado = new ArrayList<>();
+        for (List<THash<T, U>> lista : tabela) {
+            for (THash<T, U> entrada : lista) {
+                resultado.add(entrada.getChave());
+            }
+        }
+        return resultado;
+    }
+
 }
