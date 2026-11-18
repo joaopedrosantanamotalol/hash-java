@@ -1,0 +1,41 @@
+2026-11-17 23:06:16 DEBUG [main] NetHash - Nova estrutura de tabela criada com 16 posições
+2026-11-17 23:06:16 INFO  [main] NetHash - Tabela hash criada. Capacidade inicial: 16
+2026-11-17 23:06:16 DEBUG [main] NetHash - Solicitação de inserção/atualização para a chave 'Brasil'
+2026-11-17 23:06:16 DEBUG [main] NetHash - Índice calculado para a chave 'Brasil': 5
+2026-11-17 23:06:16 INFO  [main] NetHash - Entrada inserida. Chave='Brasil', índice=5, quantidade=1
+2026-11-17 23:06:16 DEBUG [main] NetHash - Verificação do fator de carga: quantidade=1, capacidade=16, necessário=false
+2026-11-17 23:06:16 DEBUG [main] NetHash - Solicitação de inserção/atualização para a chave 'Argentina'
+2026-11-17 23:06:16 DEBUG [main] NetHash - Índice calculado para a chave 'Argentina': 7
+2026-11-17 23:06:16 INFO  [main] NetHash - Entrada inserida. Chave='Argentina', índice=7, quantidade=2
+2026-11-17 23:06:16 DEBUG [main] NetHash - Verificação do fator de carga: quantidade=2, capacidade=16, necessário=false
+2026-11-17 23:06:16 DEBUG [main] NetHash - Consultando valor da chave 'Brasil'
+2026-11-17 23:06:16 DEBUG [main] NetHash - Índice calculado para a chave 'Brasil': 5
+2026-11-17 23:06:16 INFO  [main] NetHash - Chave 'Brasil' encontrada no índice 5
+2026-11-17 23:06:16 INFO  [main] HashCidades - Tabela hash de cidades criada. Capacidade fixa: 729
+2026-11-17 23:06:16 DEBUG [main] HashCidades - Solicitação de inserção da cidade 'São Paulo'
+2026-11-17 23:06:16 DEBUG [main] HashCidades - Índice calculado para a cidade 'São Paulo': 514
+2026-11-17 23:06:16 INFO  [main] HashCidades - Cidade inserida. Cidade='São Paulo', índice=514, posição na lista=0, quantidade=1
+2026-11-17 23:06:16 INFO  [main] HashCidades - Tempo de inserção de 'São Paulo': 7508900 ns
+2026-11-17 23:06:16 DEBUG [main] HashCidades - Solicitação de inserção da cidade 'Santos'
+2026-11-17 23:06:16 DEBUG [main] HashCidades - Índice calculado para a cidade 'Santos': 514
+2026-11-17 23:06:16 DEBUG [main] HashCidades - Colisão detectada no índice 514. Tamanho da lista: 1
+2026-11-17 23:06:16 INFO  [main] HashCidades - Cidade inserida. Cidade='Santos', índice=514, posição na lista=0, quantidade=2
+2026-11-17 23:06:16 INFO  [main] HashCidades - Tempo de inserção de 'Santos': 731000 ns
+2026-11-17 23:06:16 DEBUG [main] HashCidades - Solicitação de inserção da cidade 'Campinas'
+2026-11-17 23:06:16 DEBUG [main] HashCidades - Índice calculado para a cidade 'Campinas': 82
+2026-11-17 23:06:16 INFO  [main] HashCidades - Cidade inserida. Cidade='Campinas', índice=82, posição na lista=0, quantidade=3
+2026-11-17 23:06:16 INFO  [main] HashCidades - Tempo de inserção de 'Campinas': 583100 ns
+2026-11-17 23:06:16 DEBUG [main] HashCidades - Solicitação de inserção da cidade 'Águas de Lindóia'
+2026-11-17 23:06:16 DEBUG [main] HashCidades - Índice calculado para a cidade 'Águas de Lindóia': 34
+2026-11-17 23:06:16 INFO  [main] HashCidades - Cidade inserida. Cidade='Águas de Lindóia', índice=34, posição na lista=0, quantidade=4
+2026-11-17 23:06:16 INFO  [main] HashCidades - Tempo de inserção de 'Águas de Lindóia': 664400 ns
+2026-11-17 23:06:16 DEBUG [main] HashCidades - Solicitação de inserção da cidade 'Belém'
+2026-11-17 23:06:16 DEBUG [main] HashCidades - Índice calculado para a cidade 'Belém': 59
+2026-11-17 23:06:16 INFO  [main] HashCidades - Cidade inserida. Cidade='Belém', índice=59, posição na lista=0, quantidade=5
+2026-11-17 23:06:16 INFO  [main] HashCidades - Tempo de inserção de 'Belém': 732100 ns
+2026-11-17 23:06:16 INFO  [main] HashCidades - Listagem em ordem alfabética concluída. Cidades: 5
+2026-11-17 23:06:16 INFO  [main] HashCidades - Tempo de listagem: 344200 ns
+2026-11-17 23:06:16 DEBUG [main] HashCidades - Buscando a cidade 'santos'
+2026-11-17 23:06:16 DEBUG [main] HashCidades - Índice calculado para a cidade 'santos': 514
+2026-11-17 23:06:16 INFO  [main] HashCidades - Cidade 'santos' encontrada no índice 514
+2026-11-17 23:06:16 INFO  [main] HashCidades - Tempo de busca de 'santos': 775500 ns
